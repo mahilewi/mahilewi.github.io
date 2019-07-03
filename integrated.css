@@ -1,0 +1,8 @@
+body
+svg:hover #st1_{
+    animation-duration: 1s;
+    animation-name: animatest1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    mix-blend-mode: overlay
+}

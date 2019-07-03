@@ -1,0 +1,15 @@
+void setup(){
+size (1500,1500);
+background(1);
+strokeWeight (75);
+stroke (93, 173, 226);
+}
+void draw (){
+  ellipse (mouseX,mouseY,10,10);
+  fill(241, 148, 138);
+  ellipse (pmouseX,pmouseY,5,5);
+  stroke(205, 97, 85);
+  strokeWeight(2.5);
+  line (mouseX,mouseY,pmouseX,pmouseY);
+}
+  
